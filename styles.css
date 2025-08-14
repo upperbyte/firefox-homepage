@@ -36,8 +36,15 @@ header {
 }
 
 #time {
-  font-size: 50px;
-}
+    padding-left: 1em;
+    padding-right: 1em;
+    padding: 0.2em 1em 0.2em 1em;
+    /* padding: 1em 0.2em; */
+    border-radius: 15px;
+    background-color: var(--background-color);
+
+    font-size: 50px;
+  }
 
 #links {
   display: flex;
@@ -93,7 +100,7 @@ header {
 
 @media only screen and (max-width: 600px) {
   header {
-    margin-top: 2em;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +108,13 @@ header {
   }
 
   #time {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding: 0.2em 1em 0.2em 1em;
+    /* padding: 1em 0.2em; */
+    border-radius: 15px;
+    background-color: var(--background-color);
+
     font-size: 50px;
   }
 
@@ -110,7 +124,7 @@ header {
     grid-template-rows: 1fr 1fr;
     gap: clamp(2rem, 8vw, 6rem);
     padding: min(8%, 2em);
-    margin-top: min(2em, 8dvw);
+    margin-top: 2dvw;
     justify-items: center;
   }
 
@@ -118,9 +132,9 @@ header {
     display: flex;
     flex-direction: column;
     min-width: 150px;
-
+    height: 90%;
     padding: 1em 0.2em;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: var(--background-color);
   }
 
