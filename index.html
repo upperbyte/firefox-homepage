@@ -6,12 +6,38 @@
     <link rel="stylesheet" href="styles.css">
     <title>Homepage</title>
 </head>
-<body>
+<body onload="Time()">
     <header>
-        <h1>Homepage</h1>
+        <div id="time"></div>
     </header>
+    
+    
+    <div id="links">
+        <section>
+            <h3>DEV</h3>
+            <ul>
+                <li><a href="#">github</a></li>
+                <li><a href="#">codeopen</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>SOCIAL</h3>
+                <ul>
+                    <li><a href="#">instagram</a></li>
+                    <li><a href="#">dev.to</a></li>
+                    <li><a href="#">youtube</a></li>
+                </ul>
+        </section>
+        <section>
+            <h3>TOOLS</h3>
+            <ul>
+                <li><a href="#">proton</a></li>
+                <li><a href="#">notion</a></li>
+                <li><a href="#">teams</a></li>
+            </ul>
+        </section>
+    </div>
 
-
-
+    <script src="time.js"></script>
 </body>
 </html>
